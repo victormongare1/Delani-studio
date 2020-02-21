@@ -16,3 +16,10 @@
 h1{
   font-size: 60px;
 }
+.portfolio{
+  align-items: center;
+  padding-inline: 20px;
+}
+.wedo{
+  padding-bottom: 50px;
+}
