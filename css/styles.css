@@ -2,14 +2,17 @@
   text-align: center;
 }
 .intro{
-  padding-top: 70px;
+  padding-top: 150px;
   background-image: url(../img/h_img.jpg);
   color: white;
-  height: 600px;
+  height: 680px;
+  font-size: 15px;
 }
 .services{
   background-image: url(../img/s_image.jpg);
   color: white;
+  height: 370px;
+  padding-top: 70px;
 }
 .contact{
   background-image: url(../img/c_image.jpg);
@@ -29,24 +32,33 @@ h1{
   float: left;
   width: 40%;
   margin-left: 40px;
+  background-color: transparent;
 }
 .form2{
   float: right;
   width: 40%;
   margin-right: 40px;
+  background-color: transparent;
 }
 .message{
   align-content: center;
   float: inherit;
   margin-left: 40px;
   margin-right: 40px;
-  height: 600px;
+  height: 500px;
 }
 #message{
   height: 400px;
   background-color: transparent;
+  color: aliceblue;
 }
 .row{
   padding-bottom: 20px;
   padding-inline: 20px;
+}
+.image{
+  padding-top: 155px;
+}
+.about{
+  height: 290px;
 }
