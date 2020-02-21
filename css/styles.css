@@ -91,3 +91,8 @@ h1{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+@media (min-width: 360px)and (max-width: 760px) {
+  .container {
+    max-width: 540px;
+  }
+}
