@@ -7,4 +7,20 @@ $(document).ready(function(){
     $(".design-showing").show();
     $(".design-hidden").hide();
   });
+  $(".dev-showing").click(function(){
+    $(".dev-showing").hide();
+    $(".dev-hidden").show();
+  });
+  $(".dev-hidden").click(function(){
+    $(".dev-showing").show();
+    $(".dev-hidden").hide();
+  });
+  $(".product-showing").click(function(){
+    $(".product-showing").hide();
+    $(".product-hidden").show();
+  });
+  $(".product-hidden").click(function(){
+    $(".product-showing").show();
+    $(".product-hidden").hide();
+  });
 });
