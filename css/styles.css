@@ -24,6 +24,8 @@ h1{
 .portfolio{
   align-items: center;
   padding-inline: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .wedo{
   padding-bottom: 50px;
@@ -31,38 +33,47 @@ h1{
 .form1{
   float: left;
   width: 40%;
-  margin-left: 40px;
+  margin-left: 100px;
   background-color: transparent;
 }
 .form2{
   float: right;
   width: 40%;
-  margin-right: 40px;
+  margin-right: 100px;
   background-color: transparent;
 }
 .message{
   align-content: center;
   float: inherit;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
   height: 500px;
 }
 #message{
-  height: 400px;
   background-color: transparent;
   color: aliceblue;
+  height: 350px;
 }
 .row{
   padding-bottom: 20px;
   padding-inline: 20px;
 }
 .image{
-  padding-top: 155px;
+  padding-top: 140px;
 }
 .about{
   height: 290px;
 }
-.Icons{
-  height: 500px;
+.icons{
+  height: 150px;
   padding-top: 80px;
+}
+#name{
+  background-color: transparent;
+}
+#email{
+  background-color: transparent;
+}
+.design-hidden{
+  display: none;
 }
