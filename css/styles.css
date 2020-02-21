@@ -77,3 +77,9 @@ h1{
 .design-hidden{
   display: none;
 }
+.dev-hidden{
+  display: none;
+}
+.product-hidden{
+  display: none;
+}
