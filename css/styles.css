@@ -1,3 +1,12 @@
 .container{
   text-align: center;
 }
+.intro{
+  background-image: url(../img/h_img.jpg);
+}
+.services{
+  background-image: url(../img/s_image.jpg);
+}
+.contact{
+  background-image: url(../img/c_image.jpg);
+}
