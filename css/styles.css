@@ -29,6 +29,7 @@ h1{
 }
 .wedo{
   padding-bottom: 50px;
+  text-align: center;
 }
 .form1{
   float: left;
@@ -47,12 +48,13 @@ h1{
   float: inherit;
   margin-left: 150px;
   margin-right: 150px;
-  height: 500px;
+  height: 380px;
+  color: antiquewhite;
 }
 #message{
   background-color: transparent;
   color: aliceblue;
-  height: 350px;
+  height: 280px;
 }
 .row{
   padding-bottom: 20px;
@@ -70,9 +72,11 @@ h1{
 }
 #name{
   background-color: transparent;
+  color: antiquewhite;
 }
 #email{
   background-color: transparent;
+  color: antiquewhite;
 }
 .design-hidden{
   display: none;
@@ -82,4 +86,8 @@ h1{
 }
 .product-hidden{
   display: none;
+}
+.do{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
