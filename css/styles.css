@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .container{
   text-align: center;
 }
@@ -90,6 +93,13 @@ h1{
 .do{
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.btn-group-toggle{
+  background-color: transparent;
+}
+#img1-hidden{
+  display: none;
+  color: antiquewhite;
 }
 @media (min-width: 360px)and (max-width: 760px) {
   .container {
