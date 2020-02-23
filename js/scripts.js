@@ -71,4 +71,16 @@ $(document).ready(function(){
     function () {
     $(this).animate({opacity:'1'});
   })
+  $("#submit").click (function(event) {
+    event.preventDefault();
+    var name=document.getElementById("name").value;
+    var email=document.getElementById("email").value;
+    var message=document.getElementById("message").value;
+    if(email==="" || name===""){
+      alert("please fill in both name and email")
+    }
+    else{
+      alert( name + " we have received your message ,Thank you for reaching out to us.") 
+    }
+  })
 })

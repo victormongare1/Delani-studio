@@ -53,11 +53,13 @@ h1{
   margin-right: 150px;
   height: 380px;
   color: antiquewhite;
+  text-align: start;
 }
 #message{
   background-color: transparent;
   color: aliceblue;
   height: 280px;
+  text-align: start;
 }
 .row{
   padding-bottom: 20px;
@@ -97,12 +99,18 @@ h1{
 .btn-group-toggle{
   background-color: transparent;
 }
-#img1-hidden{
-  display: none;
-  color: antiquewhite;
+.work{
+  background-image: url(/img/work4.jpg);
 }
 @media (min-width: 360px)and (max-width: 760px) {
   .container {
     max-width: 540px;
+    padding: 20px;
+    margin: 20px;
   }
+  #message{
+    height: 250px;
+    width: 200px;
+  }
+
 }
