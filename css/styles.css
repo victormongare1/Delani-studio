@@ -34,7 +34,7 @@ h1{
   padding-bottom: 50px;
   text-align: center;
 }
-.form1{
+.validate{
   float: left;
   width: 40%;
   margin-left: 100px;
@@ -99,15 +99,14 @@ h1{
 .btn-group-toggle{
   background-color: transparent;
 }
-@media (min-width: 360px)and (max-width: 760px) {
+@media all and (max-width: 700px) {
   .container {
     max-width: 540px;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px
   }
   #message{
     height: 250px;
     width: 200px;
   }
-
 }
