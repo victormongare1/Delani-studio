@@ -99,9 +99,6 @@ h1{
 .btn-group-toggle{
   background-color: transparent;
 }
-.work{
-  background-image: url(/img/work4.jpg);
-}
 @media (min-width: 360px)and (max-width: 760px) {
   .container {
     max-width: 540px;
